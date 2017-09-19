@@ -1,0 +1,37 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:TestsProjectLoader">
+
+    <!-- DataTemplate for DllFile View Model -->
+    <DataTemplate DataType="{x:Type local:DllFileViewModel}">
+        <StackPanel Margin="10">
+            <Label HorizontalAlignment="Center" Content="DLL Launcher" FontSize="20" />
+            <TextBox  Height="23" HorizontalAlignment="Center" Margin="0,22,0,0" 
+                   Name="txtFilenameWithPath" 
+                   Text="{Binding Path=DllPath, 
+                   UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                   VerticalAlignment="Top" Width="300" />
+
+                <Button 
+                        Content="Browse..." 
+                        Height="30" 
+                        HorizontalAlignment="Center" 
+                        Margin="0,22,0,0" 
+                        Name="btnBrowse" 
+                        VerticalAlignment="Top"
+                        Width="142" 
+                        Command="{Binding Path=BrowseCommand}"  />
+
+            <Button 
+                        Content="Run DLL" 
+                        Height="30" 
+                        HorizontalAlignment="Center" 
+                        Margin="0,22,0,0" 
+                        Name="btnRun" 
+                        VerticalAlignment="Top"
+                        Width="142" 
+                        Command="{Binding Path=RunDllCommand}"  />
+        </StackPanel>
+    </DataTemplate>
+
+</ResourceDictionary>
