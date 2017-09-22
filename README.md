@@ -1,5 +1,5 @@
 # TestProjectLoader
-While working on my Coded UI & Unit Tests project,
+While working on my Coded UI & Unit Tests projects,
 I found that the .dll files can be run via MSTest.exe.
 So it was an idea to create my first WPF app, and to learn
 how to do this in MVVM.
