@@ -45,9 +45,7 @@ namespace TestsProjectLoader
             {
                 if (m_BrowseCommand == null)
                 {
-                    m_BrowseCommand = new RelayCommand(
-                                                     a => this.DoBrowseFolder());
-                                                     //p => this.CheckCondition());
+                    m_BrowseCommand = new RelayCommand(a => this.DoBrowseFolder());
                 }
 
                 return m_BrowseCommand;
@@ -66,9 +64,7 @@ namespace TestsProjectLoader
             {
                 if (m_RunDllCommand == null)
                 {
-                    m_RunDllCommand = new RelayCommand(
-                                                     a => this.RunDll());
-                    //p => this.CheckCondition());
+                    m_RunDllCommand = new RelayCommand(a => this.RunDll());
                 }
 
                 return m_RunDllCommand;
@@ -95,14 +91,7 @@ namespace TestsProjectLoader
         #endregion
 
         #region Private Helpers
-
-        public bool CheckCondition()
-        {
-            //Check condition here if needed        
-            return true;
-        }
-
-
+        
         private void DoBrowseFolder()
         {
             var filedialog = new System.Windows.Forms.OpenFileDialog();
@@ -120,14 +109,10 @@ namespace TestsProjectLoader
         {
             var msTestPath = Path.Combine(MsTestDirPath, "mstest.exe");
 
-            //Console.WriteLine("Insert path to test container (DLL file)");
-            //var containerPath = Console.ReadLine();
-
             if (!string.IsNullOrEmpty(DllPath) && string.Equals(Path.GetExtension(DllPath), ".dll"))
             {
                 Process myProcess = new Process();
 
-                //ProcessStartInfo myProcessStartInfo = new ProcessStartInfo($"\"{msTestPath}\"", $"/testcontainer:\"{containerPath}\" /test:{testName}");
                 ProcessStartInfo myProcessStartInfo = new ProcessStartInfo($"\"{msTestPath}\"", $"/testcontainer:\"{DllPath}\"");
 
                 try
