@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Diagnostics;
 
-namespace TestsProjectLoader
+namespace DllFileVMM.HelperClasses
 {
     public abstract class ObservableObject : INotifyPropertyChanged
     {

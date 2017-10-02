@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="02fbda4e-ebcf-4fce-8214-e320a2a49ae2" name="Ohad@DESKTOP-MPHVNNV 2017-10-03 00:09:32" runUser="DESKTOP-MPHVNNV\Ohad" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="56349447-0868-416e-a98e-718c7da5ea62">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Ohad_DESKTOP-MPHVNNV 2017-10-03 00_09_32" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2017-10-03T00:09:32.1671593+03:00" queuing="2017-10-03T00:09:32.7907870+03:00" start="2017-10-03T00:09:32.9691172+03:00" finish="2017-10-03T00:09:37.7659085+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddActionTest" storage="c:\users\ohad\documents\visual studio 2015\projects\calculatorcodeduiproj\calculatorcodeduiproj\bin\debug\calculatorcodeduiproj.dll" id="4266a4a3-5f1e-8f95-7020-84ee195fbbc8">
+      <Execution id="dfe2570f-c074-4302-b545-f6565d8518b2" />
+      <TestMethod codeBase="C:/Users/Ohad/Documents/Visual Studio 2015/Projects/CalculatorCodedUIProj/CalculatorCodedUIProj/bin/Debug/CalculatorCodedUIProj.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculatorCodedUIProj.CalculatorCUIT, CalculatorCodedUIProj, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddActionTest" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4266a4a3-5f1e-8f95-7020-84ee195fbbc8" executionId="dfe2570f-c074-4302-b545-f6565d8518b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="dfe2570f-c074-4302-b545-f6565d8518b2" testId="4266a4a3-5f1e-8f95-7020-84ee195fbbc8" testName="AddActionTest" computerName="DESKTOP-MPHVNNV" duration="00:00:02.0176646" startTime="2017-10-03T00:09:33.0532030+03:00" endTime="2017-10-03T00:09:36.0968792+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dfe2570f-c074-4302-b545-f6565d8518b2">
+    </UnitTestResult>
+  </Results>
+</TestRun>

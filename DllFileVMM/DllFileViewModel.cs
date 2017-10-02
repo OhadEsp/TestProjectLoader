@@ -1,16 +1,11 @@
-﻿using Microsoft.Win32;
+﻿using DllFileVMM.HelperClasses;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
 using System.Windows.Forms;
 using System.Windows.Input;
 
-namespace TestsProjectLoader
+namespace DllFileVMM
 {
     public class DllFileViewModel : ObservableObject
     {
@@ -94,7 +89,7 @@ namespace TestsProjectLoader
         
         private void DoBrowseFolder()
         {
-            var filedialog = new System.Windows.Forms.OpenFileDialog();
+            var filedialog = new OpenFileDialog();
             DialogResult fresult = filedialog.ShowDialog();
 
             if (fresult == System.Windows.Forms.DialogResult.OK)
@@ -129,13 +124,13 @@ namespace TestsProjectLoader
 
                 {
 
-                    System.Windows.MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message);
                 }
             }
 
             else
             {
-                System.Windows.MessageBox.Show("The given path is invalid. Please load .dll file.");
+                MessageBox.Show("The given path is invalid. Please load .dll file.");
             }
         }
 

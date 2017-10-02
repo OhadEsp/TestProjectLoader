@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace TestsProjectLoader
+namespace DllFileVMM
 {
     public class DllFileModel
     {
