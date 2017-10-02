@@ -8,12 +8,12 @@ C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\TestsProj
 C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\TestsProjectLoader\obj\Release\App.baml
 C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\TestsProjectLoader\obj\Release\MainWindow.g.cs
 C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\TestsProjectLoader\obj\Release\App.g.cs
-C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\TestsProjectLoader\obj\Release\GeneratedInternalTypeHelper.g.cs
 C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\TestsProjectLoader\obj\Release\TestsProjectLoader_MarkupCompile.cache
-C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\TestsProjectLoader\obj\Release\TestsProjectLoader_MarkupCompile.lref
 C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\TestsProjectLoader\obj\Release\DllFileView.baml
 C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\TestsProjectLoader\obj\Release\TestsProjectLoader.g.resources
 C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\TestsProjectLoader\obj\Release\TestsProjectLoader.Properties.Resources.resources
 C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\TestsProjectLoader\obj\Release\TestsProjectLoader.csproj.GenerateResource.Cache
 C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\TestsProjectLoader\obj\Release\TestsProjectLoader.exe
 C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\TestsProjectLoader\obj\Release\TestsProjectLoader.pdb
+C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\TestsProjectLoader\bin\Release\DllFileVMM.dll
+C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\TestsProjectLoader\bin\Release\DllFileVMM.pdb

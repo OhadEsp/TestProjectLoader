@@ -1,1 +1,7 @@
 C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\DllFileVMM\obj\Release\DllFileVMM.csprojResolveAssemblyReference.cache
+C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\DllFileVMM\bin\Release\DllFileVMM.dll
+C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\DllFileVMM\bin\Release\DllFileVMM.pdb
+C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\DllFileVMM\bin\Release\System.Net.Http.dll
+C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\DllFileVMM\bin\Release\System.Net.Http.xml
+C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\DllFileVMM\obj\Release\DllFileVMM.dll
+C:\Users\Ohad\Documents\Visual Studio 2015\Projects\TestsProjectLoader\DllFileVMM\obj\Release\DllFileVMM.pdb
